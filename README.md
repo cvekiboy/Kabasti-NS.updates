@@ -1,4 +1,4 @@
-# Kabasti-SU.updates
+# Kabasti-NS.updates
 
 Ažurirano: **08.08.2026.**  
 
