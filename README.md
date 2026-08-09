@@ -14,7 +14,7 @@ Bez ovih programa moguća je izmena na samom GitHub repozitorijumu, ali nikako n
 
 ## Dokumenti podložni izmenama
 
-- kabastiMZs.geojson
+- kabasti_MZs.geojson
 - translations.json
 - version.json
 - README.md
@@ -67,7 +67,7 @@ git add --all
 ```
 
 **4. Korak:** Upis verzije na koju se izmene odnose (npr. *v 2-2, 19.03 - 10.06.2026.*) gde:  
-- (*v x-y,*) se odnosi na verziju *x+1* za **kabastiMZs.geojson**, dok *y+1* za **translations.json** dokument  
+- (*v x-y,*) se odnosi na verziju *x+1* za **kabasti_MZs.geojson**, dok *y+1* za **translations.json** dokument  
 - (*dd.mm - dd.mm.gggg.*) predstavlja period nove akcije koju će aplikacija prikazivati  
 
 ```bash
@@ -81,9 +81,9 @@ git push origin draft
 
 </details>
 <details>
-  <summary>Izmena podataka u "kabastiMZs.geojson" dokumentu</summary>
+  <summary>Izmena podataka u "kabasti_MZs.geojson" dokumentu</summary>
 
-**1. Korak:** Na https://geojson.io **[Import]**-ovati *kabastiMZs.geojson* dokument **[Open]**  
+**1. Korak:** Na https://geojson.io **[Import]**-ovati *kabasti_MZs.geojson* dokument **[Open]**  
 <a href="https://github.com/cvekiboy/Kabasti-NS.updates/blob/uputstva/images/geojson/korak01.jpg" target="_blank">
   <img src="images/geojson/korak01.jpg" width="200" alt="Ctrl+Klik za uvećanje">
 </a>
@@ -97,7 +97,7 @@ git push origin draft
 <br>
 <br>
 
-**3. Korak:** U LibreOffice Calc otvoriti **[Open]** *KabastiMZs.csv*   
+**3. Korak:** U LibreOffice Calc otvoriti *KabastiMZs.csv* **[Open]**  
 <a href="https://github.com/cvekiboy/Kabasti-NS.updates/blob/uputstva/images/geojson/korak03.jpg" target="_blank">
   <img src="images/geojson/korak03.jpg" width="200" alt="Ctrl+Klik za uvećanje">
 </a>
@@ -111,7 +111,7 @@ git push origin draft
 <br>
 <br>
 
-**5. Korak:** Snimiti dokument kao **[Save as]** *KabastiMZs_izmene.csv* za rad na izmenama **[Save]**  
+**5. Korak:** Snimiti dokument kao **[Save as]** *KabastiMZs_izmene.csv* za rad na izmenama **[Save]**   
 <a href="https://github.com/cvekiboy/Kabasti-NS.updates/blob/uputstva/images/geojson/korak05.jpg" target="_blank">
   <img src="images/geojson/korak05.jpg" width="200" alt="Ctrl+Klik za uvećanje">
 </a>
@@ -284,7 +284,7 @@ ili
 <br>
 <br>
 
-**27. Korak:** Snimiti ga kao stari (pregaziti sa novim) *kabastiMZs.geojson* dokumentom **[Save]**  
+**27. Korak:** Snimiti ga kao stari (pregaziti sa novim) *kabasti_MZs.geojson* dokumentom **[Save]**  
 <a href="https://github.com/cvekiboy/Kabasti-NS.updates/blob/uputstva/images/geojson/korak27.jpg" target="_blank">
   <img src="images/geojson/korak27.jpg" width="200" alt="Ctrl+Klik za uvećanje">
 </a>
