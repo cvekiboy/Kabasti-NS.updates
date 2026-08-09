@@ -192,14 +192,14 @@ Dodati novu stranicu (Add new sheet) sa **[+]** ikonicom na dnu (Sheet2)
 <br>
 <br>
 
-**16. Korak:** U *KabastiMZs* stranici selektovati ćelije kolona C i D (bez prvog reda) pa **[Edit -> Paste Special -> Paste Only Text]**  
+**16. Korak:** U *KabastiMZs* stranici selektovati ćelije kolona Q i R (bez prvog reda) pa **[Edit -> Paste Special -> Paste Only Text]**  
 <a href="https://github.com/cvekiboy/Kabasti-NS.updates/blob/uputstva/images/geojson/korak16.jpg" target="_blank">
   <img src="images/geojson/korak16.jpg" width="200" alt="Ctrl+Klik za uvećanje">
 </a>
 <br>
 <br>
 
-**17. Korak:** Ponoviti ovu istu radnju za slovački i engleski format datuma koristeći E i F kolone i formule: 
+**17. Korak:** Ponoviti ovu istu radnju za slovački i engleski format datuma koristeći E i F (odnoso G i H) kolone i formule: 
 
 - Slovački  
 `=MID(A1,1,2) & "." & MID(A1,4,2) & "." & MID(A1,7,4)`   
@@ -216,14 +216,14 @@ ili
 <br>
 <br>
 
-**18. Korak:** Preslikati formule u sve ćelije E i F kolone  
+**18. Korak:** Preslikati formule u sve ćelije E i F (odnoso G i H) kolone  
 <a href="https://github.com/cvekiboy/Kabasti-NS.updates/blob/uputstva/images/geojson/korak18.jpg" target="_blank">
   <img src="images/geojson/korak18.jpg" width="200" alt="Ctrl+Klik za uvećanje">
 </a>
 <br>
 <br>
 
-**19. Korak:** Iskopirane formatirane datume iz druge stranice prebaciti S i T kolone i zameniti postojeće sa novima **[Edit -> Paste Special -> Paste Only Text]**  
+**19. Korak:** Iskopirane formatirane datume iz druge stranice prebaciti u S i T (odnoso U i V) kolone i zameniti postojeće sa novima **[Edit -> Paste Special -> Paste Only Text]**  
 <a href="https://github.com/cvekiboy/Kabasti-NS.updates/blob/uputstva/images/geojson/korak19.jpg" target="_blank">
   <img src="images/geojson/korak19.jpg" width="200" alt="Ctrl+Klik za uvećanje">
 </a>
