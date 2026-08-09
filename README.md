@@ -148,7 +148,7 @@ Dodati novu stranicu (Add new sheet) sa **[+]** ikonicom na dnu (Sheet2)
 <br>
 <br>
 
-**10. Korak:** Iskopirati formulu u C1 ćeliju za formatiranje datuma na mađarskm jeziku:  
+**10. Korak:** Iskopirati formulu u C1 ćeliju za formatiranje datuma na mađarskom jeziku:  
 `=MID(A1,7,4) & "." & MID(A1,4,2) & "." & MID(A1,1,2)`   (Selektovati ga pa desni klik) **[Paste]**   
 <a href="https://github.com/cvekiboy/Kabasti-NS.updates/blob/uputstva/images/geojson/korak10.jpg" target="_blank">
   <img src="images/geojson/korak10.jpg" width="200" alt="Ctrl+Klik za uvećanje">
