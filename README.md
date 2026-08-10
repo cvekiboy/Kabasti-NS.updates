@@ -118,7 +118,7 @@ git push origin draft
 <br>
 <br>
 
-**6. Korak:** Nakon završenih ispravki datuma u M i N koloni (*date_from* i *date_to*) iskopirati te dve kolone sa datumimam i prebaciti u polja kolona O i P (*date_from:sr* i *date_to_sr*) i prilagoditi broj nedelje u godini koji se podudara sa tim datumima u koloni C (*week*).
+**6. Korak:** Nakon završenih ispravki datuma u M i N koloni (*date_from* i *date_to*) iskopirati te dve kolone sa datumima i prebaciti u polja kolona O i P (*date_from:sr* i *date_to_sr*) i prilagoditi broj nedelje u godini koji se podudara sa tim datumima u koloni C (*week*).
 
 Dodati novu stranicu (Add new sheet) sa **[+]** ikonicom na dnu (Sheet2)  
 <a href="https://github.com/cvekiboy/Kabasti-NS.updates/blob/uputstva/images/geojson/korak06.jpg" target="_blank">
