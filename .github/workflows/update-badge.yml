@@ -1,0 +1,54 @@
+name: Update Schedule Badge
+
+on:
+  push:
+    paths:
+      - 'schedule-version.json'
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Parse and Format Date
+        id: badgeData
+        run: |
+          # 1. Read version like "2026.08.27"
+          RAW_DATE=$(jq -r '.version' schedule-version.json)
+          YEAR=$(echo $RAW_DATE | cut -d'.' -f1)
+          MONTH=$(echo $RAW_DATE | cut -d'.' -f2)
+          DAY=$(echo $RAW_DATE | cut -d'.' -f3)
+         
+          # 2. Format to Serbian style with spaces after the dots: DD. MM. YYYY.
+          # We use %20 here to ensure Shields.io renders the spaces correctly
+          FORMATTED="${DAY}.%20${MONTH}.%20${YEAR}."
+
+          # 3. Strip leading zeroes from the month
+          MONTH_NUM=$(10#$MONTH)
+
+          # 4. 1-Month Shifted Seasons (Colors change 30 days early)
+          if [ "$MONTH_NUM" -eq 11 ] || [ "$MONTH_NUM" -eq 12 ] || [ "$MONTH_NUM" -eq 1 ]; then
+            BADGE_COLOR="blue"         # Winter preview (Nov, Dec, Jan)
+          elif [ "$MONTH_NUM" -eq 2 ] || [ "$MONTH_NUM" -eq 3 ] || [ "$MONTH_NUM" -eq 4 ]; then
+            BADGE_COLOR="brightgreen"   # Spring preview (Feb, Mar, Apr)
+          elif [ "$MONTH_NUM" -eq 5 ] || [ "$MONTH_NUM" -eq 6 ] || [ "$MONTH_NUM" -eq 7 ]; then
+            BADGE_COLOR="yellow"       # Summer preview (May, Jun, Jul)
+          else
+            BADGE_COLOR="orange"       # Autumn preview (Aug, Sep, Oct)
+          fi
+
+          # 5. Send outputs to GitHub Actions environment
+          echo "formatted=$FORMATTED" >> $GITHUB_OUTPUT
+          echo "color=$BADGE_COLOR" >> $GITHUB_OUTPUT
+
+      - name: Update Gist Badge
+        uses: schneegans/dynamic-badges-action@v1.7.0
+        with:
+          auth: ${{ secrets.GIST_SECRET }}
+          gistID: '2e20b10a6291b8ed8aee19607fe3d7bd'
+          filename: 'badge.json'
+          label: '' # Leaving this completely empty removes the label side of the badge
+          message: ${{ steps.badgeData.outputs.formatted }}
+          color: ${{ steps.badgeData.outputs.color }}
