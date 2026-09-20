@@ -10,7 +10,17 @@
     "AppDescription": "Апликација за праћење одвожења кабастог отпада",
     "AppVersion": "Преузми званични план",
     "AppDecision": "https://www.cistocans.rs/wp-content/uploads/2026/08/%D0%90%D0%9A%D0%A6%D0%98%D0%88%D0%90-%D0%88%D0%95%D0%A1%D0%95%D0%8A%D0%95%D0%93-%D0%A3%D0%9A%D0%9B%D0%90%D0%8A%D0%90%D0%8A%D0%90-%D0%9A%D0%90%D0%91%D0%90%D0%A1%D0%A2%D0%9E%D0%93-%D0%9E%D0%A2%D0%9F%D0%90%D0%94%D0%90-%D0%9F%D0%9E-%D0%9C%D0%95%D0%A1%D0%9D%D0%98%D0%9C-%D0%97%D0%90%D0%88%D0%95%D0%94%D0%9D%D0%98%D0%A6%D0%90%D0%9C%D0%90-%D0%97%D0%90-2026.-%D0%93%D0%9E%D0%94%D0%98%D0%9D%D0%A3.pdf",
-    "AppLicence": "Лиценца и Опис"
+    "AppLicence": "Лиценца и Опис",
+    "WarningTitle": "УПОЗОРЕЊЕ",
+    "WarningText": "За коришћење подсетника и обавештења неопходно је да инсталирате .NET Desktop Runtime 8.0.31 (админ права неопходна) преко званичног Microsoft-овог линка:",	
+    "WarningExe": "Уколико нисте у могућности да инсталирате наведено, деинсталирајте ову верзију и користите стандардну .ЕXЕ инсталацију са званичног репозиторујума: ",	
+	"DotNetVersion": ".NET Desktop Runtime 8.0.31",
+	"ExeVersion": "Kabasti-NS_0.1.2_x64-setup.exe",
+	"DotNetLink": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.31/windowsdesktop-runtime-8.0.31-win-x64.exe",
+	"ExeLink": "https://github.com/cvekiboy/Kabasti-NS/releases/download/v0.1.2/Kabasti-NS_0.1.2_x64-setup.exe",	
+    "WarningDescript": "За потпуно уклањање свих корисничких подешавања апликације након деинсталације следите следеће ",
+	"CleanUp": "[ УПУТСТВО ]",
+	"CleanUpLink": "https://gist.github.com/cvekiboy/7d2b4a9ee7b9d6554e152b190b50e09e"	
   },
   "sr": {
     "icon_1": "TRENUTNA NEDELJA",
@@ -23,7 +33,17 @@
     "AppDescription": "Aplikacija za praćenje odvoženja kabastog otpada",
     "AppVersion": "Preuzmi zvanični plan",
     "AppDecision": "https://www.cistocans.rs/wp-content/uploads/2026/08/%D0%90%D0%9A%D0%A6%D0%98%D0%88%D0%90-%D0%88%D0%95%D0%A1%D0%95%D0%8A%D0%95%D0%93-%D0%A3%D0%9A%D0%9B%D0%90%D0%8A%D0%90%D0%8A%D0%90-%D0%9A%D0%90%D0%91%D0%90%D0%A1%D0%A2%D0%9E%D0%93-%D0%9E%D0%A2%D0%9F%D0%90%D0%94%D0%90-%D0%9F%D0%9E-%D0%9C%D0%95%D0%A1%D0%9D%D0%98%D0%9C-%D0%97%D0%90%D0%88%D0%95%D0%94%D0%9D%D0%98%D0%A6%D0%90%D0%9C%D0%90-%D0%97%D0%90-2026.-%D0%93%D0%9E%D0%94%D0%98%D0%9D%D0%A3.pdf",
-    "AppLicence": "Licenca i Opis"
+    "AppLicence": "Licenca i Opis",
+    "WarningTitle": "UPOZORENJE",
+    "WarningText": "Za korišćenje podsetnika i obaveštenja neophodno je da instalirate .NET Desktop Runtime 8.0.31 (admin prava neophodna) preko zvaničnog Microsoft-ovog linka: ",
+    "WarningExe": "Ukoliko niste u mogućnosti da instalirate navedeno, deinstalirajte ovu verziju i koristite standardnu .EXE instalaciju sa zvaničnog repozitorujuma: ",	
+	"DotNetVersion": ".NET Desktop Runtime 8.0.31",
+	"ExeVersion": "Kabasti-NS_0.1.2_x64-setup.exe",
+	"DotNetLink": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.31/windowsdesktop-runtime-8.0.31-win-x64.exe",
+	"ExeLink": "https://github.com/cvekiboy/Kabasti-NS/releases/download/v0.1.2/Kabasti-NS_0.1.2_x64-setup.exe",	
+    "WarningDescript": "Za potpuno uklanjanje svih korisničkih podešavanja aplikacije nakon deinstalacije sledite sledeće ",
+	"CleanUp": "[ UPUTSTVO ]",
+	"CleanUpLink": "https://gist.github.com/cvekiboy/7d2b4a9ee7b9d6554e152b190b50e09e"	
   },
   "hu": {
     "icon_1": "AKTUÁLIS HÉT",
@@ -36,7 +56,17 @@
     "AppDescription": "Alkalmazás a nagyméretű hulladék elszállításának nyomon követésére",
     "AppVersion": "Töltse le az hivatalos tervet",
     "AppDecision": "https://www.cistocans.rs/wp-content/uploads/2026/08/%D0%90%D0%9A%D0%A6%D0%98%D0%88%D0%90-%D0%88%D0%95%D0%A1%D0%95%D0%8A%D0%95%D0%93-%D0%A3%D0%9A%D0%9B%D0%90%D0%8A%D0%90%D0%8A%D0%90-%D0%9A%D0%90%D0%91%D0%90%D0%A1%D0%A2%D0%9E%D0%93-%D0%9E%D0%A2%D0%9F%D0%90%D0%94%D0%90-%D0%9F%D0%9E-%D0%9C%D0%95%D0%A1%D0%9D%D0%98%D0%9C-%D0%97%D0%90%D0%88%D0%95%D0%94%D0%9D%D0%98%D0%A6%D0%90%D0%9C%D0%90-%D0%97%D0%90-2026.-%D0%93%D0%9E%D0%94%D0%98%D0%9D%D0%A3.pdf",
-    "AppLicence": "Licenc és leírás"
+    "AppLicence": "Licenc és leírás",
+    "WarningTitle": "FIGYELMEZTETÉS",
+    "WarningText": "Emlékeztetők és értesítések használatához telepítenie kell a .NET Desktop Runtime 8.0.31-es verzióját (rendszergazdai jogosultságok szükségesek) a hivatalos Microsoft-linken keresztül: ",	
+    "WarningExe": "Ha nem tudja telepíteni a fentieket, távolítsa el ezt a verziót, és használja a hivatalos tárolóból származó szabványos .EXE telepítést: ",	
+	"DotNetVersion": ".NET Desktop Runtime 8.0.31",
+	"ExeVersion": "Kabasti-NS_0.1.2_x64-setup.exe",
+	"DotNetLink": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.31/windowsdesktop-runtime-8.0.31-win-x64.exe",
+	"ExeLink": "https://github.com/cvekiboy/Kabasti-NS/releases/download/v0.1.2/Kabasti-NS_0.1.2_x64-setup.exe",	
+    "WarningDescript": "Az alkalmazás összes felhasználói beállításának teljes eltávolításához az eltávolítás után kövesse az alábbi lépéseket ",
+	"CleanUp": "[ UTASÍTÁS ]",
+	"CleanUpLink": "https://gist.github.com/cvekiboy/7d2b4a9ee7b9d6554e152b190b50e09e"	
   },
   "sk": {
     "icon_1": "AKTUÁLNY TÝŽDEŇ",
@@ -49,7 +79,17 @@
     "AppDescription": "Aplikácia na sledovanie odvozu veľkoobjemového odpadu",
     "AppVersion": "Stiahnuť oficiálny harmonogram",
     "AppDecision": "https://www.cistocans.rs/wp-content/uploads/2026/08/%D0%90%D0%9A%D0%A6%D0%98%D0%88%D0%90-%D0%88%D0%95%D0%A1%D0%95%D0%8A%D0%95%D0%93-%D0%A3%D0%9A%D0%9B%D0%90%D0%8A%D0%90%D0%8A%D0%90-%D0%9A%D0%90%D0%91%D0%90%D0%A1%D0%A2%D0%9E%D0%93-%D0%9E%D0%A2%D0%9F%D0%90%D0%94%D0%90-%D0%9F%D0%9E-%D0%9C%D0%95%D0%A1%D0%9D%D0%98%D0%9C-%D0%97%D0%90%D0%88%D0%95%D0%94%D0%9D%D0%98%D0%A6%D0%90%D0%9C%D0%90-%D0%97%D0%90-2026.-%D0%93%D0%9E%D0%94%D0%98%D0%9D%D0%A3.pdf",
-    "AppLicence": "Licencia a popis"
+    "AppLicence": "Licencia a popis",
+    "WarningTitle": "POZOR",
+    "WarningText": "Ak chcete používať pripomienky a upozornenia, musíte si nainštalovať .NET Desktop Runtime 8.0.31 (vyžadujú sa administrátorské práva) prostredníctvom oficiálneho odkazu od spoločnosti Microsoft: ",	
+    "WarningExe": "Ak sa vám vyššie uvedené nepodarí nainštalovať, odinštalujte túto verziu a použite štandardnú inštaláciu .EXE z oficiálneho repozitára: ",	
+	"DotNetVersion": ".NET Desktop Runtime 8.0.31",
+	"ExeVersion": "Kabasti-NS_0.1.2_x64-setup.exe",
+	"DotNetLink": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.31/windowsdesktop-runtime-8.0.31-win-x64.exe",
+	"ExeLink": "https://github.com/cvekiboy/Kabasti-NS/releases/download/v0.1.2/Kabasti-NS_0.1.2_x64-setup.exe",	
+    "WarningDescript": "Ak chcete po odinštalovaní úplne odstrániť všetky používateľské nastavenia aplikácie, postupujte podľa týchto krokov ",
+	"CleanUp": "[ POKYNY ]",
+	"CleanUpLink": "https://gist.github.com/cvekiboy/7d2b4a9ee7b9d6554e152b190b50e09e"	
   },
   "en": {
     "icon_1": "CURRENT WEEK",
@@ -62,6 +102,16 @@
     "AppDescription": "Application for tracking bulky waste removal",
     "AppVersion": "Download official schedule",
     "AppDecision": "https://www.cistocans.rs/wp-content/uploads/2026/08/%D0%90%D0%9A%D0%A6%D0%98%D0%88%D0%90-%D0%88%D0%95%D0%A1%D0%95%D0%8A%D0%95%D0%93-%D0%A3%D0%9A%D0%9B%D0%90%D0%8A%D0%90%D0%8A%D0%90-%D0%9A%D0%90%D0%91%D0%90%D0%A1%D0%A2%D0%9E%D0%93-%D0%9E%D0%A2%D0%9F%D0%90%D0%94%D0%90-%D0%9F%D0%9E-%D0%9C%D0%95%D0%A1%D0%9D%D0%98%D0%9C-%D0%97%D0%90%D0%88%D0%95%D0%94%D0%9D%D0%98%D0%A6%D0%90%D0%9C%D0%90-%D0%97%D0%90-2026.-%D0%93%D0%9E%D0%94%D0%98%D0%9D%D0%A3.pdf",
-    "AppLicence": "License & Description"
+    "AppLicence": "License & Description",
+    "WarningTitle": "WARNING",
+    "WarningText": "To use reminders and notifications, you must install .NET Desktop Runtime 8.0.31 (administrator rights required) via the official Microsoft link: ",	
+    "WarningExe": "If you are unable to install the aforementioned, uninstall this version and use the standard .EXE installation from the official repository: ",	
+	"DotNetVersion": ".NET Desktop Runtime 8.0.31",
+	"ExeVersion": "Kabasti-NS_0.1.2_x64-setup.exe",
+	"DotNetLink": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.31/windowsdesktop-runtime-8.0.31-win-x64.exe",
+	"ExeLink": "https://github.com/cvekiboy/Kabasti-NS/releases/download/v0.1.2/Kabasti-NS_0.1.2_x64-setup.exe",	
+    "WarningDescript": "To completely remove all user settings of the application after uninstallation, follow these steps in ",
+	"CleanUp": "[ INSTRUCTIONS ]",
+	"CleanUpLink": "https://gist.github.com/cvekiboy/7d2b4a9ee7b9d6554e152b190b50e09e"	
   }
 }
