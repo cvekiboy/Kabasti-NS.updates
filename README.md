@@ -1,9 +1,13 @@
 # UPUTSTVA 
 
-U slučaju da želite pomoći u ispravci grešaka same aplikacije bez kreiranja korisničkog naloga na GitHub-u, prosledite relevantne informacije na:  
+U slučaju da želite pomoći u ispravci grešaka same aplikacije ili eventualne korekcije jezičkih prevoda bez kreiranja korisničkog naloga na GitHub-u, prosledite relevantne informacije na:  
 👉 **kabasti-ns &#64; proton . me** 
 
-Za konkretan doprinos sa ulogom "Saradnik", istu mail adresu iskoristite za dostavljanje informacije GitHub korisničkog naloga da Vam se dodele prava.  
+Celokupan skup tesktualnih podataka aplikacije možete pronaći na sledećim vezama: [Novi Sad OSM Data](https://gist.github.com/cvekiboy/f996567960e049e9d0a35e39f7983ccf) | [Novi Sad APP Data](https://gist.github.com/cvekiboy/92d4aa491591597e883bf3a076d67626) | [Prevodi](https://github.com/cvekiboy/Kabasti-NS.updates/blob/main/translations.json) | [Kontejneri](https://github.com/cvekiboy/Kabasti-NS.updates/blob/main/kabasti_MZs.geojson)  
+
+- Preporuka: **Raw** | **Code** *dugmad za lakši pregled i koristiti pretragu ključnih reči sa* **Ctrl** + **F** *u internet pretraživaču!*  
+
+Za konkretan doprinos sa ulogom "Saradnik", istu E-mail adresu iskoristite za dostavljanje informacije GitHub korisničkog naloga da Vam se dodele prava.  
 
 Za rad na izmenama i osvežavanju podataka same aplikacije sa lokala potrebno je instalisati sledeće programe:  
 - **Git** https://git-scm.com
@@ -17,6 +21,7 @@ Bez ovih programa moguća je izmena na samom GitHub repozitorijumu, ali nikako n
 - kabasti_MZs.geojson
 - translations.json
 - version.json
+- schedule-version.json
 - README.md
 
 (ostali se ne menjaju i ostaju netaknuti)
@@ -358,10 +363,13 @@ ili
 
 Koristiti Notepad++ i izvršiti sledeće izmene:  
 - godišnje doba
-- datume (od - do)
+- datume (od - do) *paziti na format*
 - link ka zvaničnom planu  
 
-(na sva četri jezika)  
+*Пролећна акција | Tavaszi akció | Jarná akcia | Spring action*  
+*Летња акција | Letnja akcija | Nyári akció | Letná akcia | Summer action*  
+*Јесења акција | Őszi akció | Jesenná akcia | Autumn action*  
+*Зимска акција | Zimska akcija | Téli akció | Zimná akcia | Winter action*  
 
 </details>
 <details>
@@ -372,13 +380,18 @@ Koristiti Notepad++ i izvršiti sledeće izmene:
 - "translationsVersion": *y+1*
 
 </details>
+<details>
+  <summary>Izmena datuma objave u "schedule-version.json" dokumentu</summary>
 
+Koristiti Notepad++ i izvršiti sledeće izmene:  
+- "version": "*20gg.mm.dd*" (godina.mesec.dan)
+
+</details>
 <details>
   <summary>Izmene u "README.md" dokumentu</summary>
 
 Koristiti Notepad++ i izvršiti sledeće izmene:  
-- Ažurirano: *Datum*
-- Opis: *link (veza) ka zvaničnom planu*
+- Aplikacija prikazuje trenutni plan od: *link unuatar zagrade -> (https://www.cistocans.rs/wp-content/uploads/....) ka zvaničnom planu*
 
 </details>
 
