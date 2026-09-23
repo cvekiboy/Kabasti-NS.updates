@@ -368,7 +368,7 @@ Koristiti Notepad++ i izvršiti sledeće izmene:
 
 *Пролећна акција | Tavaszi akció | Jarná akcia | Spring action*  
 *Летња акција | Letnja akcija | Nyári akció | Letná akcia | Summer action*  
-*Јесења акција | Őszi akció | Jesenná akcia | Autumn action*  
+*Јесења акција | Jesenja akcija | Őszi akció | Jesenná akcia | Autumn action*  
 *Зимска акција | Zimska akcija | Téli akció | Zimná akcia | Winter action*  
 
 </details>
