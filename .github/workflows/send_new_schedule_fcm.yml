@@ -1,0 +1,56 @@
+name: Send Push Notification for new schedule
+
+on:
+  push:
+    paths:
+      - 'schedule-version.json'
+  workflow_dispatch:
+    inputs:
+      cyr_body:
+        description: 'Cyrillic Message'
+        required: true
+        default: 'Објављен је нови план одвожења кабастог отпада!'
+      sr_body:
+        description: 'Serbian Latin Message'
+        required: true
+        default: 'Objavljen je novi plan odvoženja kabastog otpada!'
+      hu_body:
+        description: 'Hungarian Message'
+        required: true
+        default: 'Új tervet jelentettek be a nagyméretű hulladék elszállítására!'
+      en_body:
+        description: 'English Message'
+        required: true
+        default: 'A new schedule for bulky waste removal has been announced!'
+      sk_body:
+        description: 'Slovak Message'
+        required: true
+        default: 'Bol uverejnený nový harmonogram zvozu objemného odpadu!'
+
+jobs:
+  broadcast:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: versions
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install firebase-admin
+        run: npm install firebase-admin
+
+      - name: Run FCM Broadcast
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          CYR_BODY: ${{ inputs.cyr_body }}
+          SR_BODY: ${{ inputs.sr_body }}
+          HU_BODY: ${{ inputs.hu_body }}
+          EN_BODY: ${{ inputs.en_body }}
+          SK_BODY: ${{ inputs.sk_body }}
+        run: node scripts/send_new_schedule_fcm.js
