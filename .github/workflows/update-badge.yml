@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'schedule-version.json'
+  workflow_dispatch:
 
 jobs:
   update-badge:
@@ -23,10 +24,10 @@ jobs:
          
           # 2. Format to Serbian style with spaces after the dots: DD. MM. YYYY.
           # We use %20 here to ensure Shields.io renders the spaces correctly
-          FORMATTED="${DAY}.%20${MONTH}.%20${YEAR}."
+          FORMATTED="${DAY}. ${MONTH}. ${YEAR}."
 
           # 3. Strip leading zeroes from the month
-          MONTH_NUM=$(10#$MONTH)
+          MONTH_NUM=$((10#$MONTH))
 
           # 4. 1-Month Shifted Seasons (Colors change 30 days early)
           if [ "$MONTH_NUM" -eq 11 ] || [ "$MONTH_NUM" -eq 12 ] || [ "$MONTH_NUM" -eq 1 ]; then
