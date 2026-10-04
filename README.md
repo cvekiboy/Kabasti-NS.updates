@@ -2,8 +2,8 @@
 
 Aplikacija prikazuje trenutni plan od: [![zvanični plan](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/cvekiboy/2e20b10a6291b8ed8aee19607fe3d7bd/raw/badge.json)](https://www.cistocans.rs/wp-content/uploads/2026/08/%D0%90%D0%9A%D0%A6%D0%98%D0%88%D0%90-%D0%88%D0%95%D0%A1%D0%95%D0%8A%D0%95%D0%93-%D0%A3%D0%9A%D0%9B%D0%90%D0%8A%D0%90%D0%8A%D0%90-%D0%9A%D0%90%D0%91%D0%90%D0%A1%D0%A2%D0%9E%D0%93-%D0%9E%D0%A2%D0%9F%D0%90%D0%94%D0%90-%D0%9F%D0%9E-%D0%9C%D0%95%D0%A1%D0%9D%D0%98%D0%9C-%D0%97%D0%90%D0%88%D0%95%D0%94%D0%9D%D0%98%D0%A6%D0%90%D0%9C%D0%90-%D0%97%D0%90-2026.-%D0%93%D0%9E%D0%94%D0%98%D0%9D%D0%A3.pdf)  
 
-Za načine pružanje doprinosa kao i detaljnih uputstava vršenja izmena podataka aplikacije prebaciti se na <a href="https://github.com/cvekiboy/Kabasti-NS.updates/tree/uputstva"><kbd>🔗 uputstva 🤝</kbd></a> granu  
+Za načine pružanje doprinosa kao i detaljnih uputstava vršenja izmena podataka aplikacije prebaciti se na <a href="https://github.com/cvekiboy/Kabasti-NS.updates/tree/uputstva"><kbd><img src="https://raw.githubusercontent.com/cvekiboy/Kabasti-NS.updates/refs/heads/uputstva/images/branch.png" alt="uputstva" align="absmiddle"> <b><font size="4"> uputstva </font></b></kbd></a> granu  
 
-Za pregled izvršenih i dostavljenih izmena prebaciti se na 🔗 [draft](https://github.com/cvekiboy/Kabasti-NS.updates/tree/draft) *Branch* (granu)  
+Za pregled izvršenih i dostavljenih izmena prebaciti se na <a href="https://github.com/cvekiboy/Kabasti-NS.updates/tree/draft"><kbd><img src="https://raw.githubusercontent.com/cvekiboy/Kabasti-NS.updates/refs/heads/uputstva/images/branch.png" alt="draft" align="absmiddle"> <b><font size="4"> draft </font></b></kbd></a> granu  
 
 
